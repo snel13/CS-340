@@ -1,0 +1,55 @@
+/* general centered layout, bullet and display text will be dark blue */
+body {
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    max-width: 800px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #454497;
+    background-color: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+/* apply different color to labels of forms */
+.topLabel{
+    color: #238487;
+    font-weight: bold;
+    font-size: 200%
+}
+
+.sectionBreak{
+    color: #7ab8b8;
+    font-weight: bold;
+    font-size: 18px;  
+    
+}
+
+legend {
+    color: #454497;
+    font-weight: bold;
+}
+
+
+label {
+    color: #238487;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+td {
+    color: #238487;
+      font-weight: bold;
+    font-size: 18px;
+    
+}
+
+/* submit button source: http://stackoverflow.com/questions/17042201/how-to-style-input-and-submit-button-with-css */
+input[type=submit] {
+    border: 1px solid #238487;
+    color: #fff;
+    background:  #238487;
+    padding: 5px 10px;
+    border-radius: 3px;    
+}
+
